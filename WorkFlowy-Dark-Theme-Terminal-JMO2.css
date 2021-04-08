@@ -1,0 +1,73 @@
+@-moz-document domain("workflowy.com") {
+/* This style is modified to be most compatible with Workflowy's own dark-theme. */
+/* This style basically makes it even darker (like an old computer terminal screen) */
+/* Last Updated: (2021-04-07) */
+/* by JamesO2 */
+/* https://ko-fi.com/jamesorthii - If you like my work, consider supporting me on Ko-Fi. :) */
+
+
+/* DARK THEME --- */
+body {
+    background-color: #1a2125;
+}
+div.header {
+    background-color: #0a1115;
+}
+
+/* Actual Workflowy Paper */
+.page {
+    background-color: #111;
+    border: solid 2px #666;
+    filter: drop-shadow(0px 0px 40px #0a1115);
+    margin-bottom: 40px;
+}
+
+/* Name of bullet (content of a list item) */
+.project .name .content{
+    color: #f44 !important;
+}
+
+/* Notes (Shift + ENTER (text under an item)) */
+.project .notes .content {
+    color: #acffac !important;
+}
+
+/* Workflowy #tag & @tag */
+._pald67 .contentTag {
+    color: #8787ff;
+    background-color:#0e2689;
+}
+
+/* Highlighted (hover) item */
+.project .highlighted::before {
+    border: solid 2px #181818 !important;
+    background-color: #171717 !important;
+}
+
+/* Completed items */
+.project .done > .name .content {
+    color: rgba(255,0,255,0.5) !important;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+/* Bullets */
+.bullet {
+    color: #ff0;
+}
+.collapsed .bullet {
+    color: #ff0;
+    background-color: #373717;
+}
+.highlighted .bullet {
+    color: #ff0;
+    background-color: #7d6e00;
+    /* background-color: #bfa100; */
+}
+
+
+/* Hyperlinks */
+a.contentLink {
+	color: #ecabfc !important;
+}
+}
