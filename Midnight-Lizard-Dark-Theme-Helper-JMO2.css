@@ -1,0 +1,21 @@
+/* Midnight Lizard: Dark-Theme Helper - [JMO2]*/
+/* Last Updated: 2021.04.08 */
+/* 
+    Inteded as a small helper to the browser extension **Midnight Lizard**
+    This helper CSS fixes a few small element changes to Midnight LIzard's default dark theme engine.
+*/
+
+@-moz-document url("https://studio.youtube.com/") {
+/* YouTube Studio: Invert Logo Color */
+img.ytcp-home-button {filter: invert(1);}
+}
+
+@-moz-document url("https://www.instagram.com/") {
+/* Instagram: Invert Logo Color */
+img.s4Iyt {filter: invert(1);}
+}
+
+@-moz-document url-prefix("http://github.com/") {
+/* GitHub: Improve size of Radio Buttons & Checkboxes */
+input[type='radio'], input[type='checkbox'] {transform: scale(1.5);}
+}
