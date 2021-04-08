@@ -1,0 +1,52 @@
+/* Habitica.com - Extra Fixes - [JMO2] */
+/* Last Updated: 2021.04.08 */
+/* 
+    Fixes some things on Habitica.com to better complement a Dark Theme.
+    Intended to be used in companion with existing CSS:
+    
+    DeepDark Habitica 1.2.2
+
+    https://habitica.fandom.com/wiki/DeepDark_Habitica
+    https://userstyles.org/styles/149172/
+
+*/
+
+/* Fix disabled task button colors */
+div.task-disabled-habit-control-bg {
+    background-color: #1d1d1d;
+}
+
+/* Fix the footer */
+footer.col-12 {
+    background-color: #0c0c0c;
+}
+
+/* Fix the Reward button colors */
+div.task-reward-control-bg {
+    background: #222 !important;
+}
+
+/* Fix reward text color, and gold text color */
+div.task-reward-control-bg .small-text, .gold {
+    color: #ff9e00 !important;
+}
+
+/* Fix reward item box colors */
+div.item {
+    background-color: #222 !important;
+}
+
+/* Fix border rounding issues */
+div.task {
+    background: #000 !important;
+}
+
+/* Fix the Cards, Challenges, and Buttons on Guild Page */
+div.card, div.challenge, div.item-with-icon {
+    background-color: #222 !important;
+}
+
+input.inline-edit-input {
+    background-color: #000
+        !important;
+}
