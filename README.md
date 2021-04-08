@@ -57,3 +57,10 @@ https://userstyles.org/styles/149172/
 
 ---
 
+## PixelJoint.com: Bigger Buttons - [JMO2]
+Last Updated: 2021.04.08
+
+Just some minor tweaks to make the buttons a little bigger on PixelJoint.com
+
+---
+
