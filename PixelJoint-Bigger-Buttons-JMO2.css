@@ -1,0 +1,16 @@
+@-moz-document domain("pixeljoint.com") {
+/* PixelJoint.com: Bigger Buttons - [JMO2] */
+/* Last Updated: 2021.04.08 */
+/* 
+    Just some minor tweaks to make the buttons a little bigger on PixelJoint.com
+*/
+
+.smalllinkhl {
+    padding: 6px 16px 6px 16px;
+}
+
+#ratings1 img {
+    width: 24px;
+    height: 24px;
+}
+}
