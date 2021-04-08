@@ -1,0 +1,66 @@
+/* Gmail, but more fun - [JMO2] */
+/* 
+    This style adds some more color to GMAIL by using Gmail's logo colors for different design elements.
+    Intended to work best with the default Gmail theme.
+
+    List of all Changes:
+    + Top bar and search uses Red color.
+    + Custom pixel-art GMAIL logo.
+    + SVG Icons are white (to improve contrast).
+    + Mail and Meet headers on left column use Blue color.
+    + Scrollbars use green Color.
+    + I added some slight contrast between the different columns, to help them be more distinguishable.
+    + Added alternating line color for inboxes, to help see emails a bit better.
+
+    Due to the fast-moving nature of live websites, it's possible that changes made by Google will break these style rules in the future.
+
+    Last Updated: 2021.04.08
+
+*/
+
+
+/* Scrollbars */
+* {
+  scrollbar-color: #34a853 #ccc;
+}
+
+/* Header Bar */
+.gb_Kd  {
+    background-color: #db352a;
+    color: #fce8e6;
+}
+
+/* Change LOGO */
+img.gb_uc {
+    /* Thanks: https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css */
+    background: no-repeat   url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAAAoCAYAAAD0bXSJAAAEIUlEQVR4nO2av48TRxTHP4tMhSKZIm2yCCVNUhApoqAIRtDnLopEESRMQxuuTQr7CkR55i84X4mEQug5nZMiRShwlA4p0lLTGCGUIkib4u27nR3P/rK99mLNR7Ls3X07M37ffW/ejA0ej8fj8Xg8Hk9VAvtEHMdxxiAI5mxWwbr62UY6+kGd+MfFTzMGen5VTtX23h+fbbSfbebUQXEcx7ZgJlf+eSU3LOjUPLFMOtf/86JVoAPlggG8/PoLznfP1Y4ItX994zKdT97y0Q/5tu+PzxLHceyFK6ZTbpLl9Y3LQHk6M8XyrJbaoil54m1aLKu+cREm71HDQ2mEIAgWF02xxWtpZPWB28AloJucmwFTYAwcbWhcLkLgSfL5GjLOHjAAfgOGS4umtFSsEDhEvjSIAyLjWi959YE7tCP6+sjDBXAVeEo61gjgzGbGtRZC4IT0y+4CF4xXQCpUD9jZzDDnGCMZYAL85TI4jbRfvrkPwHe//7yOgc3x6N+LABQUl3U5QYSbkqYZmzHinKu0J0VGwFdFBqeivfhsN3NhXeKpWKN3XwIrE62PCBaRL5gSUT0tdpOXy77omstuVjKuXObmtHWJZ4u1Yn5M3ocs6BjEsU+QSH1Idm6MkCjdZ37eBBgBe1Z7LrsoGaMZ5drvDEnpc+QWIrZ4d/9+kGdai4bFAvnSOpE/XbKdHuLsneR4khyHiLNBorqLiKuV3j3gjWETAi9II2xqjHMMnEeENvvNjdjS6lHF+/zwFrB4lfjxsz8BGD36fqH7a6AlfUR+lPUL7o8QcRRNsxeM9kZINA9J5yB1ch+JKL1u9neECDqzbA8Q8SplhVolfxAEQd31mIpl3tsCDguuTciKBpKmTIcOyaZgMyrGiAhdUsGHpKLMLNtLSVs7yXEptddpVXc+TLHq9rEk6pSQNB3Z7DvOhcgC3NXeNKcPcKfgCBFDRdP2B2QX+HZEV2LhxXWeeBsUS9EFdIg4yI4aSNOWyT1ENHttVJayXNftczukuxwR8CvpnFZZLGXpHRFbvJbs0B8hT/UAt2guNN2dNDCeg+R9n/kHZow7wnNZ2Y5IkLCq9pZkRHbProwBaSpbpuJ0odUmuCO8+DcxB9u6jWWucYZI4eFKQ10kCtSZdxoai2KPYUB23VaJlW0Yt5AJItwBUlr3k3P2hjGIY/eonkrrMEva7SGpdwK8QrbOdD1Wa17bZtFAJvwpEknfMv9Uq0P3aHaHfxdJ2bfJrhG1iq2Swk/ZdtFAxFBH9Uj3/qYUL8AjHP9WMyi6ds06niVjGJLu1kyMvs25ztXvGGMNt3WildRCTaS/OtTZnM5lWwuRreYMSLl+/NO5TY+F5zcft2Wd12oykbZJ4Z7ffLyxvj80Sv8WnjFeMgqabNvj8Xg8Ho/H4/G4+B9kAVQp/q04HwAAAABJRU5ErkJggg==');
+    
+    width: 0!important;
+    height: 0!important;
+    padding: 20px 55px;
+}
+
+/* Header SVGs */
+.gb_qa svg {
+    color: white !important;
+}
+
+/* Search Bar */
+#aso_search_form_anchor, input.gb_gf, #aso_search_form_anchor svg {
+    background: #96291e;
+    color: #fff !important;
+}
+
+/* Main Flex Background  */
+.no {
+    background: #eee;
+}
+
+/* Left Column */
+.aeN {background: #e8e8e8;}
+.W9 {background: #d6e5ff !important;}   /* Mail Banner */
+.X9 {background: #bbd4fc !important;}   /* Meet Banner */
+
+/* Alternating Row Colors */
+tr.zA {background: #f5f5f5;}
+tr.zA:nth-child(even) {background: #eee;}
