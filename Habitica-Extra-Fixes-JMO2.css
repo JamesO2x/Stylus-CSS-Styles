@@ -1,3 +1,4 @@
+@-moz-document domain("habitica.com") {
 /* Habitica.com - Extra Fixes - [JMO2] */
 /* Last Updated: 2021.04.08 */
 /* 
@@ -49,4 +50,5 @@ div.card, div.challenge, div.item-with-icon {
 input.inline-edit-input {
     background-color: #000
         !important;
+}
 }
